@@ -1,88 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تواصل معنا عبر واتساب</title>
+    <title>تواصل معنا</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
-
         body {
-            font-family: 'Tajawal', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to right, #f4f4f4, #e6e6e6);
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
-            text-align: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
         }
-
-        .container {
-            background: white;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            max-width: 450px;
-            width: 90%;
+        img {
+            max-width: 100%;
+            height: auto;
         }
-
-        .container img {
-            width: 100%;
-            max-width: 250px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-        }
-
-        h2 {
-            color: #333;
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-
-        a {
-            color: #25D366;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 22px;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        button {
-            width: 100%;
-            padding: 15px;
-            border-radius: 8px;
-            border: none;
-            background-color: #25D366;
-            color: white;
+        .whatsapp-button {
+            margin-top: 20px;
+            padding: 10px 20px;
             font-size: 18px;
-            font-weight: bold;
+            color: white;
+            background-color: #25D366;
+            border: none;
+            border-radius: 5px;
             cursor: pointer;
-            transition: 0.3s;
-            margin-top: 15px;
-        }
-
-        button:hover {
-            background-color: #1ebd57;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="your-logo.png" alt="Header Image"> 
-        <h2>تواصل معنا عبر <a href="https://wa.me/201032908896" target="_blank">واتساب</a></h2>
-        <button onclick="callWhatsApp()">اتصل الآن</button>
-    </div>
-    
-    <script>
-        function callWhatsApp() {
-            window.open("https://wa.me/201032908896", "_blank");
-        }
-    </script>
+    <img src="file (1).jpg" alt="Centered Image">
+    <h2>تواصل معنا عبر واتساب</h2>
+    <a href="https://wa.me/00201032908896" class="whatsapp-button">اضغط هنا</a>
 </body>
 </html>
